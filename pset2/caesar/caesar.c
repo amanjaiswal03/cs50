@@ -33,11 +33,7 @@ int main(int argc, string argv[])
                 o[i] = s[i];
             }
         }
-        printf("ciphertext: ");
-        for (int j = 0, n = strlen(o); j < n; j++)
-        {
-            printf("%c", o[j]);
-        }
+        printf("ciphertext: %s", o);
         printf("\n");
         return 0;
     }

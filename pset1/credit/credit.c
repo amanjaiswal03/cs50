@@ -44,7 +44,9 @@ bool valid(long long num)
 
 int main(void)
 {
-    long long num = get_long_long("Number: ");
+    long long num = get_long_long("Number: "); // prompts user to input the number
+
+    // conditions to check the first two digit to see which card is it
     if (num / 10000000000000 == 34 || num / 10000000000000 == 37)
     {
         if (valid(num))
